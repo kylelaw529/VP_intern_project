@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index</title>
+    </head>
+    <body>
+        {% for i in user_image %}
+        <img src="static/{{ i }}" alt="User Image">
+      {% endfor %}
+      <br>
+      <h1>{{ dumps }}</h1>
+    <a href="http://127.0.0.1:5000/home">Back</a>
+    </body>
+</html>
